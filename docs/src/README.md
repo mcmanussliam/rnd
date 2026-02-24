@@ -1,6 +1,6 @@
-# nd-cli
+# Navigate Directory
 
-`nd-cli` is a terminal directory navigator that replaces repetitive
+`nd` is a terminal directory navigator that replaces repetitive
 `ls`/`cd` loops with indexed selection.
 
 It lists subdirectories in the current location, lets you move deeper by number,
@@ -18,7 +18,7 @@ Commands: [1..3] select, [b] back, [q] quit
 
 ## How It Works
 
-1. `nd-cli` reads directories from the current working directory (or `--start-dir`).
+1. `nd` reads directories from the current working directory (or `--start-dir`).
 2. It shows only directories, sorted alphabetically.
 3. You choose a directory index, `b` (back), or `q` (quit).
 4. On quit, it prints the selected path.
