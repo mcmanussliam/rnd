@@ -1,4 +1,4 @@
-# `nd-cli`
+# `nd`
 
 Have you ever found yourself constantly doing `ls cd ls cd ls cd`? Well have I
 got a solution for you!
